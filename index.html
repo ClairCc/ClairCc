@@ -1,22 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <figure><img src="./src/Icons/icon.svg" alt="" /></figure>
-      <nav>
-        <ul>
-          <li>Inicio</li>
-          <li>Beneficios</li>
-          <li>Proyectos</li>
-          <li>Contacto</li>
+    <header class="header">
+      <figure class="header_figure">
+        <img src="./src/Icons/icon.svg" alt="" />
+      </figure>
+      <nav class="header_nav">
+        <ul class="header_nav-ul">
+          <a href="">
+            <li class="header_ul-li">Inicio</li>
+          </a>
+          <a href="">
+            <li class="header_ul-li">Beneficios</li>
+          </a>
+          <a href="">
+            <li class="header_ul-li">Proyectos</li>
+          </a>
+          <a href="">
+            <li class="header_ul-li">Contacto</li>
+          </a>
         </ul>
       </nav>
     </header>
+    <main>
+      <h2>¡Hola! Soy Cristian. <br />Frontend Developer</h2>
+      <h3>Trabajemos juntos</h3>
+      <section>
+        <a href="">
+          <button>Proyectos</button>
+        </a>
+        <a href="">
+          <button class="header_section-cv">Cv</button>
+        </a>
+      </section>
+    </main>
+    <section class="beneficios">
+      <article></article>
+    </section>
   </body>
 </html>
